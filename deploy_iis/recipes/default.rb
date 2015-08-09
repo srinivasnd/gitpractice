@@ -8,6 +8,7 @@
 #
 
 include_recipe "iis"
+inclue_recipe "windows"
 
 
 iis_site 'Default Web Site' do
